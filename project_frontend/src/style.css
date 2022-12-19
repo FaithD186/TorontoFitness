@@ -1,0 +1,218 @@
+form{
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 2px;
+    padding: 60px;
+    box-sizing: border-box;
+    background-color: transparent;
+    border: none;
+    text-decoration: none;
+    user-select: none;
+    list-style: none;
+    position: relative;
+}
+html, body {
+    background-color: white;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    margin: 80px;
+    padding-top: 10px;
+    text-align: center;
+    color: #3c3c3c;
+}
+
+h3{
+    margin: 80px;
+    padding-top: 10px;
+    text-align: center;
+    color: #3c3c3c;
+}
+
+.marker {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 18px;
+    height: 18px;
+    background-color: #000;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    user-select: none;
+    transform: translate(-50%, -50%);
+}
+
+.pin {
+    width: 25px;
+    height: 25px;
+    border-radius: 50% 50% 50% 0;
+    background: #00cae9;
+    position: absolute;
+    transform: rotate(-45deg);
+    left: 50%;
+    top: 50%;
+    margin: -20px 0 0 -20px;
+}
+.pin:after {
+    content: "";
+    width: 9px;
+    height: 9px;
+    margin: 8px 0 0 8px;
+    background: #e6e6e6;
+    position: absolute;
+    border-radius: 50%;
+}
+.studio-list{
+    margin-left:230px;
+    margin-right:230px;
+    margin-top: 40px;
+}
+.sort-text{
+    margin-left:220px;
+    margin-right:220px;
+    padding: 20px;
+    border-radius: 30px;
+}
+.post-code-form{
+    margin-left:220px;
+    margin-right:220px;
+    margin-bottom: -23px;
+    padding: 10px;
+}
+.profile{
+    padding: 60px;
+    margin-right: 100px;
+    margin-left: 100px;
+    border-radius: 35px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+}
+.map{
+    margin-left:230px;
+    margin-right:230px;
+    margin-top: 40px;
+
+}
+.avatar-box{
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+/*    background-image: url("https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__480.png");*/
+    background-size: cover;
+}
+.avatar{
+    height: 150px;
+    width: 150px;
+    margin-top: -500px;
+    margin-bottom: 20px;
+    border: 5px solid whitesmoke;
+
+}
+.edit-button{
+    margin-left: 10vh;
+    padding: 50px;
+}
+.studio-photo{
+    height: 250px;
+    width: 250px;
+}
+.carousel{
+    width:400px;
+    height:400px;
+}
+.profile-container{
+    background-color: #0A1819;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.background-photo{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+    height: 20vh;
+    width: 100%;
+    background-image: url("https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+}
+
+.classes-list{
+    margin-left:220px;
+    margin-right:220px;
+    margin-top: 40px;
+}
+
+.times-list{
+    margin-top: 40px;
+}
+
+.schedule-list{
+    margin-left:220px;
+    margin-right:220px;
+    margin-top: 40px;
+}
+
+.history-list{
+    margin-left:220px;
+    margin-right:220px;
+    margin-top: 40px;
+}
+.map-page{
+    margin-top:5vh;
+}
+.btn-primary{
+    background-color: #d85c27 !important;
+    outline: none !important;
+    border:none !important;
+}
+.studio-upper{
+    height: 8vh;
+    width: 100vw;
+    background-color: whitesmoke;
+/*    background-image: url("https://images.pexels.com/photos/924824/pexels-photo-924824.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");*/
+    color: black;
+}
+.h2-text{
+    padding-top: 17px;
+    text-align: center;
+}
+.studio-name{
+    height: 33vh;
+    width: 100vw;
+    background-image: url("https://images.pexels.com/photos/924824/pexels-photo-924824.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+    color: white;
+    padding-top: 15px;
+    text-align: center;
+}
+.studio-text{
+    padding-top: 35px;
+    text-align: center;
+    color: white;
+}
+.studio-background{
+    background-color: white;
+}
+.register{
+    font-size: 14px;
+    color: #7f7d7d;
+    text-decoration: none;
+}
+.pinpoint-buttons{
+    margin-top: 60vh;
+}
+
+
+.subscribe_button {
+    margin:"auto";
+    float:"center";
+    padding: 20px;
+}

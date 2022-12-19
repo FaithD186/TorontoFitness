@@ -1,0 +1,67 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* body {
+    background: #333;
+    color: #f2f2f2;
+    min-height: 100%;
+    min-width: 100%;
+    align-items: center;
+  } */
+  
+  /* .container {
+    width: 90%;
+    margin: auto;
+  } */
+  
+  .subscription_container {
+      display: flex;
+      margin-top: 30px;
+      background-color: #121212;
+      /*background-color: #2e353d;*/
+    border-radius: 20px;
+    /* color: #333; */
+    /* background: #eee; */
+    height: 50vh;
+    width: 70%;
+    padding: 1rem;
+    overflow-x: auto;
+    position: relative;
+      align-items: center;
+      justify-content: center;
+      margin-left: 27vh;
+
+
+  }
+.subscription_container::-webkit-scrollbar {
+   display: none;
+ }
+  
+  .subscription_card {
+    flex: 0 0 350px;
+      height: 40vh;
+    box-shadow: 0 1px 1rem -4px #000;
+    background: #FFFFFF;
+    margin: 1rem;
+    overflow: hidden;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: all 250ms ease-in-out;
+
+  }
+.subscription_card:hover {
+   box-shadow: 0 4px 1rem -4px #000;
+   transform: translateY(-3px);
+ }
+
+  .card_data {
+      padding: 3em;
+      text-align: center;
+  }
+  .background{
+      background-color: black;
+      background-image: url("https://images.pexels.com/photos/924824/pexels-photo-924824.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+      height: 100vh;
+  }
