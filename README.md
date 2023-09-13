@@ -27,6 +27,8 @@ sh run.sh
 ```
 Then, in another terminal window run the frontend: 
 ```shell
+cd TorontoFitness
+cd PB
 sh run2.sh
 ```
 
