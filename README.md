@@ -10,6 +10,13 @@ Users can also subscribe to a subscription plan to book classes, and have automa
 payments at the beginning of the period to their cards, and view their past and future
 payments. 
 
+- Implemented REST APIs with Python Django Rest Framework that handled requests from the React/Javascript front-end based on dynamic user interaction
+- Employed Django ORM and admin panel to access databases and execute CRUD operations.
+- Utilized Bootstrap and React to create responsive pages and enhance the website's UI
+- Integrated Google Maps API to display map data based on user location
+- Incorporated JSON Web Tokens for user registration and login functionalities 
+
+
 ## Built With
 * Django
 * Python
