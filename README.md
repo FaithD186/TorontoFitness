@@ -1,6 +1,6 @@
 # TorontoFitness
 
-Website for Toronto Fitness club, where users can log in or register, and create an account. 
+Fullstack web application for Toronto Fitness, where users can log in or register, and create an account. 
 Users can find gym studios based on geographical proximity to their current location, 
 from a pinpoint on a map, or a postal code. Studios can be filtered by name, 
 amenities, class names, and coaches that hold classes in those studios. 
